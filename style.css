@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+
+nav ul li {
+  font-weight: 600;
+  margin: 0px 14px;
+}
+.ustbolum {
+    border-style: solid ;
+    border-width: 1px ;
+    margin: 3px;
+}
+#a1 {
+    height: 131px;
+}
+.ustbolum p {
+    padding: 10px;
+}
+.resim {
+    margin: auto;
+}
+.resim img {
+    padding: 15px 45px;
+}
+.yazi0 {
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    padding: 0;
+}
+.yazi1 {
+    border-style: solid;
+    border-width: 4px;
+    padding: 25px;
+}
+#yazi0 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    color: red;
+    padding: 10px;
+}
+#yazi1 {
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    color: blue;
+    padding: 10px;
+}
+#yazi2 {
+    white-space: nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 245, 253);
+    color: rgb(0, 245, 253);
+    padding: 10px;
+}
+.list1, .list2 {
+ 
+    border-style: solid;
+    border-width: 2px;
+    padding: 40px;
+
+    
+}
+.listeler {
+    margin: auto;
+    display: flex;
+}
